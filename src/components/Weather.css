@@ -1,0 +1,24 @@
+.weather-wrapper {
+    width: 100%;
+    text-align: right;
+}
+.weather-wrapper span {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-right: 20px;
+}
+#city {
+    margin-right: 10px;
+}
+#country {
+    margin-left: 0px;
+}
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.description img {
+    max-width: 160px;
+}

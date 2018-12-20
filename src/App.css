@@ -1,0 +1,60 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: url(images/blue.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.App {
+	border-radius: 15px;
+	border: 6px double #9ab3b3;
+	background-color: rgba(255, 255, 255, 0.95);
+	padding-bottom: 30px;
+}	
+
+@media only screen and (max-width: 500px){
+
+	.App {
+		width: 75vw;
+		min-height: 85vh;
+		height: auto;
+	}
+}
+@media only screen and (min-width: 500.1px) and (max-width: 768px) {
+
+	.App {
+		width: 450px;
+		min-height: 85vh;
+		height: auto;
+	}
+}
+@media only screen and (min-width: 768.1px) and (max-width: 1200px) {
+
+	.App {
+		width: 650px;
+		min-height: 85vh;
+		height: auto;
+	}
+}
+@media only screen and (min-width: 1200.1px) {
+	.App {
+		margin: 10px auto;
+		width: 700px;
+		min-height: 560px;
+	}
+}
+/* * {
+	border: 1px dashed red;
+	box-sizing: border-box;
+} */
+
+/*
+1) small phones  <=500px
+2) usual phones 500.1px - 767.9px
+3) hi-res phones & pads 768px - 992px
+4) big pads & small desktops 992.1px - 1200px
+5) desktops >= 1200px
+*/
