@@ -4,7 +4,7 @@ what2wear
 
 ## Project description
 
-what2wear is a simple React weather-app with some additional functionality. Users can get weather forecast for a place they need and they can also get some outfit recomendation based on the weather outside. App can recomend users to get sunglasses or umbrella. 
+what2wear is  a simple but usefull React app! Users can get weather forecast for a place they need and they can also get an outfit recomendation based on the weather outside. App can recomend users to get sunglasses/umbrella if it is sunny/rainy outside. 
 
 ## Project references
 
