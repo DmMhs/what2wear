@@ -16,8 +16,8 @@ what2wear is  a simple but usefull React app! Users can get weather forecast for
 
 
 ## Tech stack
-
 * React/ReactRouter/Redux
+* [API used for a weather info - OpenWeatherAPI](https://openweathermap.org/api)
 * Bootstrap 4
 
 # Roadmap
